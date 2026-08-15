@@ -1,0 +1,15 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="62" y1="34" x2="458" y2="486" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#1F2937"/><stop offset="1" stop-color="#0B1220"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="176" y1="202" x2="332" y2="324" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#64D2FF"/><stop offset="1" stop-color="#30D158"/>
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="112" fill="url(#bg)"/>
+  <rect x="1" y="1" width="510" height="510" rx="111" stroke="white" stroke-opacity=".14" stroke-width="2"/>
+  <path d="M169 142C133 142 118 160 118 196V224C118 244 108 255 88 258C108 261 118 272 118 292V320C118 356 133 374 169 374" stroke="#F7FAFF" stroke-width="30" stroke-linecap="round"/>
+  <path d="M343 142C379 142 394 160 394 196V224C394 244 404 255 424 258C404 261 394 272 394 292V320C394 356 379 374 343 374" stroke="#F7FAFF" stroke-width="30" stroke-linecap="round"/>
+  <path d="M186 224H326M294 192L328 224L294 256M326 304H186M218 272L184 304L218 336" stroke="url(#arrow)" stroke-width="28" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
