@@ -28,6 +28,7 @@
 | 処理方針 | 入力、変換、Validation、出力をブラウザ内で実行 |
 | 保存対象 | ユーザーが保存した変換テンプレート。入力データ本体は保存対象外 |
 | 公開URL | なし。local buildのみで、hostingは未設定 |
+| GitHub | <https://github.com/shunsoco-stack/json-csv-xml-yaml-converter> |
 
 ## Overview
 

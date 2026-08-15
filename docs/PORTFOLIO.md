@@ -12,7 +12,7 @@
 | 対応Format | JSON、CSV、XML、YAML |
 | アイコン | `public/icons/data-shift.svg` |
 | 公開URL | なし。local buildのみで、hostingは未設定 |
-| GitHub URL | 本作品専用remoteは未設定 |
+| GitHub URL | <https://github.com/shunsoco-stack/json-csv-xml-yaml-converter> |
 | スクリーンショット | 2026-08-13にlocal appを撮影した7枚を `docs/screenshots/` へ収録・目視確認済み |
 
 ## 解決する課題

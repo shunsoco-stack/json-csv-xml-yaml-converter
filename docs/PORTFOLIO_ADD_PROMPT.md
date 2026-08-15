@@ -2,7 +2,7 @@
 
 以下を、完成した「JSON・CSV・XML・YAML変換ツール」を既存ポートフォリオへ追加する作業のプロンプトとして使用してください。
 
-2026-08-13時点のlocal baselineでは、`npm.cmd run verify`、31 tests、static build、Sites成果物の生成が成功し、指定7枚のPNGを目視確認しています。in-app browserではLegacy XML、Ajv Schema Validation、Template保存・再適用、Copy / Download、390 × 844 mobile、5,200 recordsのWorker変換、console warning / error 0件も確認しています。公開URLと本作品専用Git remoteはありません。将来の掲載作業では、このbaselineをそのまま信用せず、その時点の実装と成果物を再確認してください。
+2026-08-13時点のlocal baselineでは、`npm.cmd run verify`、31 tests、static build、Sites成果物の生成が成功し、指定7枚のPNGを目視確認しています。in-app browserではLegacy XML、Ajv Schema Validation、Template保存・再適用、Copy / Download、390 × 844 mobile、5,200 recordsのWorker変換、console warning / error 0件も確認しています。公開URLは未設定で、GitHub URLは `https://github.com/shunsoco-stack/json-csv-xml-yaml-converter` です。将来の掲載作業では、このbaselineをそのまま信用せず、その時点の実装と成果物を再確認してください。
 
 ---
 
@@ -39,9 +39,9 @@ npm.cmd run build
 - slug候補：`json-csv-xml-yaml-converter`
 - アイコン候補：`public/icons/data-shift.svg`
 - 公開URL：実在する本番URLを確認できた場合だけ設定
-- GitHub URL：`git remote -v` と到達可能性を確認できた場合だけ設定
+- GitHub URL：`https://github.com/shunsoco-stack/json-csv-xml-yaml-converter`
 
-現在はlocal-onlyです。URLが未設定ならLinkを非表示にし、仮URL、親repositoryのURL、別作品のURLを流用しないでください。
+Demo公開はlocal-onlyです。Demo URLが未設定ならLinkを非表示にし、仮URL、親repositoryのURL、別作品のURLを流用しないでください。GitHub URLは実際に開いて確認してから掲載してください。
 
 ## 3. 掲載の中心メッセージ
 
