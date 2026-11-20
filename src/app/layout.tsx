@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
+import { LegalFooter } from "@/components/legal-footer";
 
 export const metadata: Metadata = {
   title: "JSON・CSV・XML・YAML変換ツール",
@@ -21,7 +22,8 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
     <html lang="ja">
-      <body>{children}</body>
+      <body>{children}
+        <LegalFooter /></body>
     </html>
   );
 }
