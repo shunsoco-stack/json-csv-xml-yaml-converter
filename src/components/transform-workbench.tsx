@@ -759,7 +759,7 @@ function MappingSheet({
         </div>
         <button type="button" className="add-mapping-button" onClick={() => onChange([...mappings, { id: uniqueId("mapping"), enabled: true, source: "", target: "", type: "string", defaultValue: "" }])}><Plus size={15} />Mappingを追加</button>
         <footer className="sheet-footer">
-          <p><LockKeyhole size={13} />Mapping設定とSample値は端末外へ送信されません。</p>
+          <p><LockKeyhole size={13} />Mapping設定とSample値は外部サーバーへ送信しません。本番ページ末尾の広告配信（忍者AdMax）は、これらのデータとは無関係です。</p>
           <div><button type="button" className="button secondary" onClick={onClose}>キャンセル</button><button type="button" className="button primary" onClick={onApply}><Check size={15} />Mappingを適用</button></div>
         </footer>
       </section>
@@ -1274,7 +1274,7 @@ export function TransformWorkbench() {
             </div>
           </section>
 
-          <div className="privacy-card"><span><LockKeyhole size={16} /></span><div><strong>Local-first</strong><p>入力、Mapping、変換結果はサーバーへ送信されません。</p></div><CheckCircle2 size={15} /></div>
+          <div className="privacy-card"><span><LockKeyhole size={16} /></span><div><strong>Local-first</strong><p>入力、Mapping、変換結果は外部サーバーへ送信しません。本番ページ末尾の広告配信（忍者AdMax）は、これらのデータとは無関係です。</p></div><CheckCircle2 size={15} /></div>
         </aside>
 
         <main className="studio-area">
